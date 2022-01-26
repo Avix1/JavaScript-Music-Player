@@ -1,4 +1,4 @@
-<h3 align="center">JavaScript Pokedex</h3>
+<h3 align="center">JavaScript Avix - Radio</h3>
 <br>
 <p align="center">
   <a href="#rocket-Technologies">Technologies</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
