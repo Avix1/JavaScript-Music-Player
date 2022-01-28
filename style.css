@@ -27,10 +27,15 @@ body{
     align-items: center;
     justify-content: center;
     min-height: 100vh;
-    background: linear-gradient(var(--blacklight) 0%, var(--lightblack) 100%);
+    background: linear-gradient(-45deg, #030408, #515C6F, #cecaca, #EDBEC4);
+    animation: gradient 15s ease infinite;
+    background-size: 400% 400%;
+    
 }
 body.active{
-    background: linear-gradient(var(--pinksoft) 0%, var(--bluesky) 100%);
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
 }
 .wrapper{
     width: 380px;
@@ -404,4 +409,16 @@ ul.show{
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
 }
